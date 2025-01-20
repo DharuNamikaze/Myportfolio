@@ -1,16 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<!-- License: MIT. Made by H2D2 Design: https://github.com/h2d2-design/h2d2-shopicons -->
-<svg fill="#cc7700" width="800px" height="800px" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" style="enable-background:new 0 0 48 48" xml:space="preserve">
-
-<style>.st3{display:none}</style>
-
-<g id="Your_Icons">
-
-<path d="M0 0h48v48H0V0z" style="fill:none"/>
-
-<path d="M24.788 4.065a2 2 0 0 0-2.25.956l-11.282 20.11a2 2 0 0 0 1.745 2.978h8.282V42a2 2 0 0 0 3.827.813 552.532 552.532 0 0 0 10.037-24.088A2 2 0 0 0 33.282 16h-7V6a2 2 0 0 0-1.494-1.935z" id="Shopicon"/>
-
-</g>
-
+<svg xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <symbol id="brand" viewBox="0 0 48 48">
+      <path  fill="#ffaa11" d="M24.788 4.065a2 2 0 0 0-2.25.956l-11.282 20.11a2 2 0 0 0 1.745 2.978h8.282V42a2 2 0 0 0 3.827.813 552.532 552.532 0 0 0 10.037-24.088A2 2 0 0 0 33.282 16h-7V6a2 2 0 0 0-1.494-1.935z" id="Shopicon"/>
+    </symbol>
+  </defs>
 </svg>
