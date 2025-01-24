@@ -7,10 +7,8 @@ tags:
 - Tailwind Css
 - React
 - Next JS
-- Faker JS
-- Express
-- MongoDB
+demoUrl: https://type-d.vercel.app/
 repoUrl: https://github.com/DharuNamikaze/typeD
 ---
 
-Inspired by [MonkeyType](https://monkeytype.com), I wanted to create my own typing app which put me to practice and showcase my javascript skills, along the way i learned new libraries and methods to improve responsiveness reduce load time.
+Inspired by [MonkeyType](https://monkeytype.com), I wanted to create my own typing app which put me to practice and showcase my javascript skills, along the way i learned new methods to improve responsiveness and reduce load time.
