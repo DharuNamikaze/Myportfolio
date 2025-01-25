@@ -73,7 +73,7 @@ const stack = [
     icon: "python",
     href: "https://react.dev",
   },
-  
+
   {
     text: "react",
     icon: "react",
@@ -166,12 +166,14 @@ const stack = [
             id="ctaButtons"
             class="animated flex flex-wrap gap-4 justify-center mt-5"
           >
-            <a
-              href="/Resume_Dharun.pdf" target="_blank"
-              class="py-2 px-4 rounded truncate text-xs md:text-sm lg:text-base bg-black dark:bg-white text-white dark:text-black hover:opacity-75 blend"
-            >
-              Resume
-            </a>
+              <a
+                href="/Resume_Dharun.pdf"
+                target="_blank"
+                class="py-2 px-4 rounded truncate text-xs md:text-sm lg:text-base bg-black dark:bg-white text-white dark:text-black hover:opacity-75 blend"
+              >
+                Resume
+              </a>
+
             <a
               href="/work"
               class="py-2 px-4 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend"
@@ -190,58 +192,63 @@ const stack = [
       <section class="animate">
         <article>
           <p>
-            I am a <b><i>Full-stack developer</i></b>, <b><i>UI/UX designer</i></b
-            > and <b><i>tech enthusiast</i></b> based in Coimbatore, India. 
+            I am a <b><i>Full-stack developer</i></b>, <b
+              ><i>UI/UX designer</i></b
+            > and <b><i>tech enthusiast</i></b> based in Coimbatore, India.
           </p>
           <p>
-            I have a passion for building and breaking things. My
-            true love for crafting creative front-end designs with unique
-            takes on detail, <span class="hover:text-blue-500 cursor-pointer">color</span>, typography &amp;&amp; quick responses with back-end concepts.
+            I have a passion for building and breaking things. My true love for
+            crafting creative front-end designs with unique takes on detail, <span
+              class="hover:text-blue-500 cursor-pointer">color</span
+            >, typography &amp;&amp; quick responses with back-end concepts.
           </p>
           <strong>Currently</strong>
           <p>
-            I&apos;ve built websites with focus on mastering JavaScript core concepts to understand 
-            and deliver delightful web experience, From trying out various libraries, frameworks, databases and AI tools 
-            I have learnt to implement user-centric designs effectively
-            using responsive and reliable tech stack.
+            Focused on mastering JavaScript core concepts to understand and
+            deliver delightful web experience, From trying out various
+            libraries, frameworks, databases and AI tools I have learnt to
+            implement user-centric designs effectively using responsive and
+            reliable tech stack.
           </p>
           <p>
-            I currently looking forward to enhance digital experience as a Full-stack developer, I do
-            create prototypes, wireframes, webdesigns, SEO enabled websites and development.
+            Passionate about crafting user-centric digital experiences. From
+            designing wireframes and prototypes to building SEO-optimized
+            websites, I bring ideas to life with clean code and creative design.
+            I&apos;m eager to collaborate in a team environment to gain
+            experience by working together.
           </p>
         </article>
       </section>
 
-            <!-- Project Preview Section -->
-            <section class="animate">
-              <div class="space-y-4">
-                <div class="flex justify-between">
-                  <p class="font-semibold text-black dark:text-white">
-                    Recent projects
-                  </p>
-                  <a
-                    href="/projects"
-                    class="w-fit col-span-3 group flex gap-1 items-center underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend"
-                  >
-                    <span
-                      class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend"
-                    >
-                      All projects
-                    </span>
-                  </a>
-                </div>
-                <ul class="space-y-4">
-                  {
-                    projects.map((project) => (
-                      <li>
-                        <ArrowCard entry={project} />
-                      </li>
-                    ))
-                  }
-                </ul>
-              </div>
-            </section>
-      
+      <!-- Project Preview Section -->
+      <section class="animate">
+        <div class="space-y-4">
+          <div class="flex justify-between">
+            <p class="font-semibold text-black dark:text-white">
+              Recent projects
+            </p>
+            <a
+              href="/projects"
+              class="w-fit col-span-3 group flex gap-1 items-center underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend"
+            >
+              <span
+                class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend"
+              >
+                All projects
+              </span>
+            </a>
+          </div>
+          <ul class="space-y-4">
+            {
+              projects.map((project) => (
+                <li>
+                  <ArrowCard entry={project} />
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+      </section>
 
       <!-- Tech Stack Section -->
       <section class="animate">
@@ -264,7 +271,7 @@ const stack = [
               <span
                 class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend"
               >
-              Wordpress
+                Wordpress
               </span>
             </a>
           </div>
